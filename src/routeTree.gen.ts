@@ -9,38 +9,168 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ReportsRouteImport } from './routes/reports'
+import { Route as IncidentsRouteImport } from './routes/incidents'
+import { Route as GraphRouteImport } from './routes/graph'
+import { Route as ComplianceRouteImport } from './routes/compliance'
+import { Route as AnalyticsRouteImport } from './routes/analytics'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as IdentitiesIndexRouteImport } from './routes/identities.index'
+import { Route as IdentitiesIdRouteImport } from './routes/identities.$id'
 
+const ReportsRoute = ReportsRouteImport.update({
+  id: '/reports',
+  path: '/reports',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IncidentsRoute = IncidentsRouteImport.update({
+  id: '/incidents',
+  path: '/incidents',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GraphRoute = GraphRouteImport.update({
+  id: '/graph',
+  path: '/graph',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ComplianceRoute = ComplianceRouteImport.update({
+  id: '/compliance',
+  path: '/compliance',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AnalyticsRoute = AnalyticsRouteImport.update({
+  id: '/analytics',
+  path: '/analytics',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IdentitiesIndexRoute = IdentitiesIndexRouteImport.update({
+  id: '/identities/',
+  path: '/identities/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IdentitiesIdRoute = IdentitiesIdRouteImport.update({
+  id: '/identities/$id',
+  path: '/identities/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/compliance': typeof ComplianceRoute
+  '/graph': typeof GraphRoute
+  '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
+  '/identities/$id': typeof IdentitiesIdRoute
+  '/identities/': typeof IdentitiesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/compliance': typeof ComplianceRoute
+  '/graph': typeof GraphRoute
+  '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
+  '/identities/$id': typeof IdentitiesIdRoute
+  '/identities': typeof IdentitiesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/analytics': typeof AnalyticsRoute
+  '/compliance': typeof ComplianceRoute
+  '/graph': typeof GraphRoute
+  '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
+  '/identities/$id': typeof IdentitiesIdRoute
+  '/identities/': typeof IdentitiesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/analytics'
+    | '/compliance'
+    | '/graph'
+    | '/incidents'
+    | '/reports'
+    | '/identities/$id'
+    | '/identities/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/analytics'
+    | '/compliance'
+    | '/graph'
+    | '/incidents'
+    | '/reports'
+    | '/identities/$id'
+    | '/identities'
+  id:
+    | '__root__'
+    | '/'
+    | '/analytics'
+    | '/compliance'
+    | '/graph'
+    | '/incidents'
+    | '/reports'
+    | '/identities/$id'
+    | '/identities/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AnalyticsRoute: typeof AnalyticsRoute
+  ComplianceRoute: typeof ComplianceRoute
+  GraphRoute: typeof GraphRoute
+  IncidentsRoute: typeof IncidentsRoute
+  ReportsRoute: typeof ReportsRoute
+  IdentitiesIdRoute: typeof IdentitiesIdRoute
+  IdentitiesIndexRoute: typeof IdentitiesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/reports': {
+      id: '/reports'
+      path: '/reports'
+      fullPath: '/reports'
+      preLoaderRoute: typeof ReportsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/incidents': {
+      id: '/incidents'
+      path: '/incidents'
+      fullPath: '/incidents'
+      preLoaderRoute: typeof IncidentsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/graph': {
+      id: '/graph'
+      path: '/graph'
+      fullPath: '/graph'
+      preLoaderRoute: typeof GraphRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/compliance': {
+      id: '/compliance'
+      path: '/compliance'
+      fullPath: '/compliance'
+      preLoaderRoute: typeof ComplianceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/analytics': {
+      id: '/analytics'
+      path: '/analytics'
+      fullPath: '/analytics'
+      preLoaderRoute: typeof AnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,22 +178,33 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/identities/': {
+      id: '/identities/'
+      path: '/identities'
+      fullPath: '/identities/'
+      preLoaderRoute: typeof IdentitiesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/identities/$id': {
+      id: '/identities/$id'
+      path: '/identities/$id'
+      fullPath: '/identities/$id'
+      preLoaderRoute: typeof IdentitiesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AnalyticsRoute: AnalyticsRoute,
+  ComplianceRoute: ComplianceRoute,
+  GraphRoute: GraphRoute,
+  IncidentsRoute: IncidentsRoute,
+  ReportsRoute: ReportsRoute,
+  IdentitiesIdRoute: IdentitiesIdRoute,
+  IdentitiesIndexRoute: IdentitiesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
