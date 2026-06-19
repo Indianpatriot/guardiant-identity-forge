@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ReportsRouteImport } from './routes/reports'
 import { Route as IncidentsRouteImport } from './routes/incidents'
 import { Route as GraphRouteImport } from './routes/graph'
 import { Route as ComplianceRouteImport } from './routes/compliance'
@@ -17,6 +18,11 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as IdentitiesIndexRouteImport } from './routes/identities.index'
 import { Route as IdentitiesIdRouteImport } from './routes/identities.$id'
 
+const ReportsRoute = ReportsRouteImport.update({
+  id: '/reports',
+  path: '/reports',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IncidentsRoute = IncidentsRouteImport.update({
   id: '/incidents',
   path: '/incidents',
@@ -59,6 +65,7 @@ export interface FileRoutesByFullPath {
   '/compliance': typeof ComplianceRoute
   '/graph': typeof GraphRoute
   '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
   '/identities/$id': typeof IdentitiesIdRoute
   '/identities/': typeof IdentitiesIndexRoute
 }
@@ -68,6 +75,7 @@ export interface FileRoutesByTo {
   '/compliance': typeof ComplianceRoute
   '/graph': typeof GraphRoute
   '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
   '/identities/$id': typeof IdentitiesIdRoute
   '/identities': typeof IdentitiesIndexRoute
 }
@@ -78,6 +86,7 @@ export interface FileRoutesById {
   '/compliance': typeof ComplianceRoute
   '/graph': typeof GraphRoute
   '/incidents': typeof IncidentsRoute
+  '/reports': typeof ReportsRoute
   '/identities/$id': typeof IdentitiesIdRoute
   '/identities/': typeof IdentitiesIndexRoute
 }
@@ -89,6 +98,7 @@ export interface FileRouteTypes {
     | '/compliance'
     | '/graph'
     | '/incidents'
+    | '/reports'
     | '/identities/$id'
     | '/identities/'
   fileRoutesByTo: FileRoutesByTo
@@ -98,6 +108,7 @@ export interface FileRouteTypes {
     | '/compliance'
     | '/graph'
     | '/incidents'
+    | '/reports'
     | '/identities/$id'
     | '/identities'
   id:
@@ -107,6 +118,7 @@ export interface FileRouteTypes {
     | '/compliance'
     | '/graph'
     | '/incidents'
+    | '/reports'
     | '/identities/$id'
     | '/identities/'
   fileRoutesById: FileRoutesById
@@ -117,12 +129,20 @@ export interface RootRouteChildren {
   ComplianceRoute: typeof ComplianceRoute
   GraphRoute: typeof GraphRoute
   IncidentsRoute: typeof IncidentsRoute
+  ReportsRoute: typeof ReportsRoute
   IdentitiesIdRoute: typeof IdentitiesIdRoute
   IdentitiesIndexRoute: typeof IdentitiesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/reports': {
+      id: '/reports'
+      path: '/reports'
+      fullPath: '/reports'
+      preLoaderRoute: typeof ReportsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/incidents': {
       id: '/incidents'
       path: '/incidents'
@@ -181,6 +201,7 @@ const rootRouteChildren: RootRouteChildren = {
   ComplianceRoute: ComplianceRoute,
   GraphRoute: GraphRoute,
   IncidentsRoute: IncidentsRoute,
+  ReportsRoute: ReportsRoute,
   IdentitiesIdRoute: IdentitiesIdRoute,
   IdentitiesIndexRoute: IdentitiesIndexRoute,
 }
