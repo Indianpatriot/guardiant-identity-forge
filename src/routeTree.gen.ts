@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as IdentitiesIndexRouteImport } from './routes/identities.index'
+import { Route as IdentitiesIdRouteImport } from './routes/identities.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,30 +23,39 @@ const IdentitiesIndexRoute = IdentitiesIndexRouteImport.update({
   path: '/identities/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IdentitiesIdRoute = IdentitiesIdRouteImport.update({
+  id: '/identities/$id',
+  path: '/identities/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/identities/$id': typeof IdentitiesIdRoute
   '/identities/': typeof IdentitiesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/identities/$id': typeof IdentitiesIdRoute
   '/identities': typeof IdentitiesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/identities/$id': typeof IdentitiesIdRoute
   '/identities/': typeof IdentitiesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/identities/'
+  fullPaths: '/' | '/identities/$id' | '/identities/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/identities'
-  id: '__root__' | '/' | '/identities/'
+  to: '/' | '/identities/$id' | '/identities'
+  id: '__root__' | '/' | '/identities/$id' | '/identities/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  IdentitiesIdRoute: typeof IdentitiesIdRoute
   IdentitiesIndexRoute: typeof IdentitiesIndexRoute
 }
 
@@ -65,11 +75,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IdentitiesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/identities/$id': {
+      id: '/identities/$id'
+      path: '/identities/$id'
+      fullPath: '/identities/$id'
+      preLoaderRoute: typeof IdentitiesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  IdentitiesIdRoute: IdentitiesIdRoute,
   IdentitiesIndexRoute: IdentitiesIndexRoute,
 }
 export const routeTree = rootRouteImport

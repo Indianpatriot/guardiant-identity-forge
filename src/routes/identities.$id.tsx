@@ -25,8 +25,7 @@ export const Route = createFileRoute("/identities/$id")({
 });
 
 function Investigate() {
-  const { identity } = Route.useLoaderData();
-  const i = identity;
+  const { identity: i } = Route.useLoaderData() as { identity: NonNullable<ReturnType<typeof getIdentity>> };
   const initials = i.name.split(" ").map((n) => n[0]).slice(0, 2).join("");
 
   return (
