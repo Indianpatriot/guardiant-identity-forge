@@ -84,8 +84,8 @@ function Analytics() {
               <div />
               {["<7d","7–30d","30–60d","60–90d","90–180d","180d+"].map((b) => <div key={b} className="text-center text-muted-foreground uppercase tracking-wider py-1">{b}</div>)}
               {platformHeatmap.map((p, ri) => (
-                <>
-                  <div key={p.platform} className="text-muted-foreground py-2 font-semibold">{p.platform}</div>
+                <div key={p.platform} className="contents">
+                  <div className="text-muted-foreground py-2 font-semibold">{p.platform}</div>
                   {Array.from({ length: 6 }).map((_, ci) => {
                     const v = ((ri * 7 + ci * 11) % 100);
                     const intensity = v / 100;
