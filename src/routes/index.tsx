@@ -25,6 +25,25 @@ function Overview() {
     <>
       <TopBar title="Enterprise Risk Overview" subtitle="Unified identity intelligence across Active Directory, Azure AD, AWS, Okta, Salesforce, ServiceNow" />
       <main className="flex-1 px-4 md:px-8 py-6 space-y-6 scrollbar-thin overflow-y-auto">
+        {/* SCALE STRIP */}
+        <section className="glass rounded-2xl px-5 py-3 flex flex-wrap items-center gap-x-8 gap-y-2 text-xs">
+          {[
+            { l: "Identities", v: kpis.total.toLocaleString() },
+            { l: "Groups", v: kpis.groups.toLocaleString() },
+            { l: "Service Accounts", v: kpis.serviceAccounts.toLocaleString() },
+            { l: "Audit Events (24h)", v: kpis.auditEvents.toLocaleString() },
+            { l: "Connected Platforms", v: "6" },
+          ].map((s) => (
+            <div key={s.l} className="flex items-center gap-2">
+              <span className="text-[10px] uppercase tracking-wider text-muted-foreground">{s.l}</span>
+              <span className="font-display font-bold text-foreground tabular-nums">{s.v}</span>
+            </div>
+          ))}
+          <span className="ml-auto inline-flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-success">
+            <span className="h-1.5 w-1.5 rounded-full bg-success animate-pulse-glow" /> All connectors healthy
+          </span>
+        </section>
+
         {/* KPI BAR */}
         <section className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           <KpiCard label="Total Identities" value={kpis.total} icon={Users} trend={4} />
