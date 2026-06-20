@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Shield, LayoutDashboard, Users, AlertTriangle, Activity, FileBarChart, ShieldCheck, Network, Sparkles } from "lucide-react";
+import { Shield, LayoutDashboard, Users, AlertTriangle, Activity, FileBarChart, ShieldCheck, Network, Sparkles, Crosshair } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const nav = [
@@ -7,6 +7,7 @@ const nav = [
   { to: "/identities", label: "Identity Registry", icon: Users },
   { to: "/incidents", label: "Incident Center", icon: AlertTriangle },
   { to: "/graph", label: "Identity Graph", icon: Network },
+  { to: "/attack-path", label: "Attack Paths", icon: Crosshair },
   { to: "/analytics", label: "Privilege Analytics", icon: Activity },
   { to: "/compliance", label: "Compliance", icon: ShieldCheck },
   { to: "/reports", label: "Reports", icon: FileBarChart },
