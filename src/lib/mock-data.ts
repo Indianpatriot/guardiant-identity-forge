@@ -111,10 +111,13 @@ export const identities: Identity[] = Array.from({ length: 48 }).map((_, i) => {
 
 export const kpis = {
   total: 5243,
+  groups: 500,
+  serviceAccounts: 100,
+  auditEvents: 2000,
   highRisk: 42,
   orphaned: 17,
   dormantAdmins: 28,
-  incidents: 12,
+  incidents: 50,
   riskReduction: 43,
 };
 
