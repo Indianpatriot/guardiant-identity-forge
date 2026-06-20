@@ -1,0 +1,51 @@
+incident_id,employee_id,severity,incident_type,description
+INC_2001,EMP_1006,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2002,EMP_1026,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2003,EMP_1055,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2004,EMP_1094,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2005,EMP_1106,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2006,EMP_1129,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2007,EMP_1136,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2008,EMP_1144,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2009,EMP_1161,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2010,EMP_1204,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2011,EMP_1229,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2012,EMP_1235,CRITICAL,Offboarding Gap,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Offboarding Gap.
+INC_2013,EMP_1037,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2014,EMP_1255,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2015,EMP_1198,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2016,EMP_1011,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2017,EMP_1346,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2018,EMP_1330,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2019,EMP_1033,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2020,EMP_1112,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2021,EMP_1219,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2022,EMP_1153,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2023,EMP_1348,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2024,EMP_1212,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2025,EMP_1151,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2026,EMP_1043,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2027,EMP_1301,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2028,EMP_1061,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2029,EMP_1341,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2030,EMP_1159,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2031,EMP_1105,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2032,EMP_1306,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2033,EMP_1323,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2034,EMP_1196,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2035,EMP_1333,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2036,EMP_1257,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2037,EMP_1258,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2038,EMP_1225,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2039,EMP_1282,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2040,EMP_1179,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2041,EMP_1220,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2042,EMP_1230,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2043,EMP_1158,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2044,EMP_1263,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2045,EMP_1014,HIGH,Over-privileged Identity,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Over-privileged Identity.
+INC_2046,EMP_1174,CRITICAL,Privilege Escalation Case,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Privilege Escalation Case.
+INC_2047,EMP_1284,CRITICAL,Privilege Escalation Case,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Privilege Escalation Case.
+INC_2048,EMP_1222,CRITICAL,Privilege Escalation Case,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Privilege Escalation Case.
+INC_2049,EMP_1182,CRITICAL,Privilege Escalation Case,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Privilege Escalation Case.
+INC_2050,EMP_1215,CRITICAL,Privilege Escalation Case,Identity metadata deviation observed. Pattern aligned with profile fingerprint: Privilege Escalation Case.

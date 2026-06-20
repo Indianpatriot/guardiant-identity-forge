@@ -1,0 +1,351 @@
+employee_id,full_name,department,employment_status,risk_score,risk_tier,risk_analysis_narrative
+EMP_1000,John Anderson,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1001,Charles Miller,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1002,Michael Davis,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1003,Charles Martinez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1004,Charles Martinez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1005,Emily Brown,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1006,William Martin,Security,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1007,Linda Taylor,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1008,Joseph Rodriguez,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1009,David Rodriguez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1010,Joseph Moore,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1011,David Moore,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1012,David Wilson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1013,Jane Lopez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1014,Richard Moore,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1015,David Davis,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1016,John Garcia,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1017,Robert Rodriguez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1018,Jane Thomas,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1019,William Davis,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1020,Barbara Rodriguez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1021,Margaret Gonzalez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1022,Emily Rodriguez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1023,Christopher Wilson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1024,Christopher Taylor,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1025,Linda Johnson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1026,Charles Miller,HR,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1027,Christopher Hernandez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1028,Margaret Martinez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1029,William Moore,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1030,Mary Garcia,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1031,Charles Smith,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1032,Jessica Martin,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1033,Susan Miller,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1034,Michael Martinez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1035,Robert Martinez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1036,Jane Davis,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1037,Joseph Jackson,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1038,Robert Jones,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1039,Emily Wilson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1040,Jane Moore,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1041,Susan Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1042,Susan Martin,IT,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1043,Charles Anderson,Security,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1044,Robert Rodriguez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1045,Robert Rodriguez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1046,Robert Rodriguez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1047,David Jones,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1048,James Williams,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1049,Susan Wilson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1050,Jessica Smith,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1051,John Lopez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1052,Charles Martin,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1053,Joseph Thomas,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1054,Mary Garcia,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1055,Charles Smith,Finance,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1056,Michael Wilson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1057,Linda Gonzalez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1058,Barbara Gonzalez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1059,Michael Thomas,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1060,Michael Johnson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1061,James Smith,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1062,Thomas Brown,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1063,Linda Lopez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1064,Emily Jackson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1065,James Williams,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1066,William Martin,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1067,Charles Wilson,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1068,Barbara Smith,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1069,Joseph Lopez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1070,Sarah Taylor,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1071,Thomas Anderson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1072,Robert Williams,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1073,Susan Jackson,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1074,John Thomas,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1075,James Lopez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1076,Christopher Rodriguez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1077,Michael Davis,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1078,Robert Thomas,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1079,John Williams,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1080,Robert Martinez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1081,Charles Taylor,HR,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1082,Richard Anderson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1083,Emily Miller,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1084,Sarah Miller,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1085,Jessica Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1086,James Martinez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1087,John Moore,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1088,Charles Martinez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1089,Thomas Brown,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1090,Thomas Thomas,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1091,Linda Thomas,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1092,Michael Jackson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1093,David Jackson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1094,Charles Wilson,DevOps,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1095,Margaret Gonzalez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1096,Jessica Wilson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1097,Christopher Brown,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1098,Linda Williams,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1099,Michael Garcia,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1100,Christopher Thomas,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1101,William Anderson,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1102,Jessica Miller,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1103,David Rodriguez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1104,Sarah Martinez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1105,Susan Brown,Finance,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1106,Mary Rodriguez,DevOps,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1107,Christopher Johnson,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1108,Linda Smith,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1109,Jessica Jackson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1110,Sarah Thomas,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1111,Sarah Jackson,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1112,Michael Thomas,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1113,Emily Garcia,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1114,William Gonzalez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1115,Michael Hernandez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1116,Mary Taylor,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1117,Charles Anderson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1118,Richard Martin,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1119,Jane Miller,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1120,Susan Thomas,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1121,Robert Garcia,HR,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1122,Joseph Williams,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1123,David Thomas,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1124,Linda Wilson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1125,Susan Moore,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1126,Margaret Jones,IT,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1127,Joseph Hernandez,IT,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1128,John Martinez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1129,David Anderson,DevOps,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1130,Charles Gonzalez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1131,Robert Jackson,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1132,Barbara Thomas,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1133,David Thomas,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1134,Barbara Brown,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1135,Susan Smith,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1136,David Williams,Finance,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected.
+EMP_1137,Mary Williams,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1138,Barbara Thomas,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1139,Michael Davis,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1140,Michael Wilson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1141,William Smith,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1142,Richard Lopez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1143,Joseph Jackson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1144,Michael Martin,IT,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1145,David Davis,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1146,Linda Smith,IT,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1147,Charles Garcia,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1148,William Wilson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1149,William Miller,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1150,Mary Jackson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1151,William Smith,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1152,John Jackson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1153,Thomas Martinez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1154,James Martin,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1155,Emily Johnson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1156,Richard Jones,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1157,Joseph Garcia,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1158,Richard Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1159,Thomas Martinez,Sales,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1160,Michael Jones,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1161,Charles Lopez,Engineering,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1162,Emily Anderson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1163,Mary Lopez,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1164,Christopher Moore,HR,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1165,Michael Anderson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1166,David Johnson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1167,Emily Davis,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1168,Richard Moore,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1169,Emily Thomas,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1170,Richard Miller,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1171,Richard Brown,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1172,Richard Johnson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1173,Susan Williams,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1174,Christopher Smith,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1175,Jessica Miller,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1176,Robert Hernandez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1177,Linda Jones,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1178,John Jones,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1179,Barbara Smith,Security,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1180,Joseph Taylor,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1181,Richard Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1182,Robert Martin,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1183,John Johnson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1184,Emily Thomas,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1185,Barbara Martin,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1186,Christopher Jackson,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1187,Christopher Taylor,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1188,Joseph Brown,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1189,Charles Miller,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1190,Barbara Anderson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1191,Barbara Wilson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1192,David Thomas,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1193,Joseph Brown,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1194,David Moore,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1195,Joseph Lopez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1196,Jane Martinez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1197,Jessica Taylor,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1198,Robert Brown,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1199,Linda Jackson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1200,Christopher Martin,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1201,Christopher Rodriguez,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1202,William Hernandez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1203,David Jackson,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1204,John Williams,Sales,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected.
+EMP_1205,Susan Hernandez,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1206,Barbara Jackson,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1207,Sarah Martin,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1208,Joseph Thomas,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1209,James Taylor,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1210,William Jackson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1211,Jane Davis,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1212,James Martinez,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1213,William Hernandez,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1214,Joseph Garcia,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1215,Robert Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1216,Michael Gonzalez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1217,John Anderson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1218,Jessica Gonzalez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1219,Emily Gonzalez,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1220,Christopher Anderson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1221,Joseph Brown,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1222,Margaret Williams,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1223,Robert Hernandez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1224,Emily Taylor,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1225,Richard Jones,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1226,James Garcia,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1227,Michael Garcia,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1228,Jessica Jackson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1229,Christopher Hernandez,IT,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1230,Michael Thomas,Finance,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1231,Linda Jackson,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1232,William Anderson,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1233,William Williams,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1234,Margaret Gonzalez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1235,Jane Anderson,IT,Terminated,100,CRITICAL,CRITICAL: Offboarding Gap - Terminated employee retains active Cloud/Okta sessions. | HIGH: Cross-platform administrator privileges detected. | MEDIUM: Dormant cloud administrator presence detected.
+EMP_1236,Christopher Thomas,DevOps,Terminated,10,LOW,Profile Baseline Normal
+EMP_1237,Barbara Williams,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1238,Robert Anderson,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1239,Sarah Lopez,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1240,Barbara Martin,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1241,Emily Moore,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1242,Christopher Jones,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1243,David Lopez,HR,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1244,Mary Jones,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1245,William Moore,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1246,David Taylor,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1247,John Lopez,HR,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1248,Barbara Thomas,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1249,Michael Martinez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1250,Charles Taylor,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1251,Christopher Jones,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1252,Sarah Martin,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1253,Jane Wilson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1254,Susan Martin,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1255,Robert Moore,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1256,James Lopez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1257,William Gonzalez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1258,James Martin,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1259,Thomas Lopez,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1260,Michael Garcia,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1261,Joseph Williams,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1262,Joseph Johnson,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1263,Mary Williams,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1264,Emily Hernandez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1265,William Thomas,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1266,Christopher Smith,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1267,David Moore,Sales,Terminated,10,LOW,Profile Baseline Normal
+EMP_1268,William Davis,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1269,Joseph Martin,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1270,Thomas Martin,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1271,Robert Jones,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1272,Richard Davis,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1273,Michael Taylor,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1274,Margaret Taylor,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1275,Thomas Johnson,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1276,John Lopez,IT,Terminated,10,LOW,Profile Baseline Normal
+EMP_1277,Emily Jackson,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1278,Richard Moore,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1279,Susan Thomas,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1280,Susan Johnson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1281,James Johnson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1282,Charles Thomas,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1283,Richard Johnson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1284,Emily Lopez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1285,Barbara Garcia,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1286,Margaret Rodriguez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1287,Joseph Martin,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1288,Barbara Brown,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1289,Susan Martin,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1290,Susan Lopez,Finance,Terminated,10,LOW,Profile Baseline Normal
+EMP_1291,Linda Johnson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1292,Sarah Smith,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1293,Michael Davis,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1294,Mary Jackson,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1295,Richard Anderson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1296,Margaret Lopez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1297,Emily Smith,Sales,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1298,Mary Moore,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1299,Susan Miller,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1300,Emily Jones,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1301,Susan Williams,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1302,Richard Williams,DevOps,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1303,Sarah Garcia,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1304,Emily Miller,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1305,Thomas Smith,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1306,Susan Moore,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1307,Mary Thomas,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1308,Jessica Williams,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1309,Susan Taylor,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1310,Jessica Garcia,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1311,Jane Brown,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1312,Sarah Hernandez,Sales,Terminated,10,LOW,Profile Baseline Normal
+EMP_1313,Michael Rodriguez,Security,Terminated,10,LOW,Profile Baseline Normal
+EMP_1314,Christopher Moore,Engineering,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1315,David Garcia,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1316,Jessica Johnson,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1317,Jessica Rodriguez,Sales,Active,10,LOW,Profile Baseline Normal
+EMP_1318,Christopher Smith,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1319,William Thomas,Security,Terminated,10,LOW,Profile Baseline Normal
+EMP_1320,Jane Garcia,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1321,James Hernandez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1322,Barbara Lopez,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1323,Charles Brown,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1324,Linda Anderson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1325,William Gonzalez,IT,Active,65,HIGH,HIGH: Cross-platform administrator privileges detected. | MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1326,Sarah Hernandez,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1327,Sarah Thomas,DevOps,Terminated,10,LOW,Profile Baseline Normal
+EMP_1328,Thomas Smith,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1329,Robert Miller,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1330,William Thomas,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1331,Charles Smith,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1332,Linda Lopez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1333,Mary Johnson,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1334,Charles Martinez,Engineering,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1335,Charles Rodriguez,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1336,David Brown,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1337,Richard Jones,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1338,Jane Johnson,Security,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.
+EMP_1339,Susan Jones,DevOps,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1340,Christopher Hernandez,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1341,William Jackson,HR,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1342,Thomas Jackson,HR,Active,10,LOW,Profile Baseline Normal
+EMP_1343,Barbara Brown,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1344,John Martin,Finance,Active,10,LOW,Profile Baseline Normal
+EMP_1345,Jessica Jackson,Security,Active,10,LOW,Profile Baseline Normal
+EMP_1346,Sarah Taylor,Sales,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1347,Mary Jones,IT,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1348,Jessica Brown,Security,Active,45,MEDIUM,HIGH: Cross-platform administrator privileges detected.
+EMP_1349,Joseph Jones,Finance,Active,30,MEDIUM,MEDIUM: Multi-factor authentication disabled on core interface.

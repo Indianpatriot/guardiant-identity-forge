@@ -40,7 +40,7 @@ export function AICopilot() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed bottom-6 right-6 z-30 inline-flex items-center gap-2 rounded-full bg-[var(--gradient-primary)] px-5 py-3 text-sm font-semibold text-primary-foreground glow-primary hover:scale-105 transition-transform"
+        className="fixed bottom-6 right-6 z-30 inline-flex items-center gap-2 rounded-full bg-blue-500 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-600 transition-colors shadow-lg shadow-blue-500/50"
       >
         <Sparkles className="h-4 w-4" />
         AI Security Analyst

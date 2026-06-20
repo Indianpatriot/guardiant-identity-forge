@@ -1,0 +1,2738 @@
+[
+  {
+    "employee_id":"EMP_1000",
+    "ad_username":"johnan_77",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1001",
+    "ad_username":"charle_50",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1002",
+    "ad_username":"michae_99",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1003",
+    "ad_username":"charle_63",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1004",
+    "ad_username":"charle_62",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1005",
+    "ad_username":"emilyb_29",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1006",
+    "ad_username":"willia_ad",
+    "account_status":"Disabled",
+    "last_login_days":42,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1007",
+    "ad_username":"lindat_58",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1008",
+    "ad_username":"joseph_33",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1009",
+    "ad_username":"davidr_78",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1010",
+    "ad_username":"joseph_70",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1011",
+    "ad_username":"davidm_40",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1012",
+    "ad_username":"davidw_38",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1013",
+    "ad_username":"janelo_48",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1014",
+    "ad_username":"richar_28",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1015",
+    "ad_username":"davidd_69",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1016",
+    "ad_username":"johnga_17",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1017",
+    "ad_username":"robert_81",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1018",
+    "ad_username":"janeth_62",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1019",
+    "ad_username":"willia_63",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1020",
+    "ad_username":"barbar_81",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1021",
+    "ad_username":"margar_77",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1022",
+    "ad_username":"emilyr_27",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1023",
+    "ad_username":"christ_59",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1024",
+    "ad_username":"christ_41",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1025",
+    "ad_username":"lindaj_42",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1026",
+    "ad_username":"charle_ad",
+    "account_status":"Disabled",
+    "last_login_days":72,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1027",
+    "ad_username":"christ_52",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1028",
+    "ad_username":"margar_92",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1029",
+    "ad_username":"willia_20",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1030",
+    "ad_username":"maryga_67",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1031",
+    "ad_username":"charle_57",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1032",
+    "ad_username":"jessic_21",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1033",
+    "ad_username":"susanm_78",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1034",
+    "ad_username":"michae_34",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1035",
+    "ad_username":"robert_16",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1036",
+    "ad_username":"janeda_44",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1037",
+    "ad_username":"joseph_58",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1038",
+    "ad_username":"robert_96",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1039",
+    "ad_username":"emilyw_87",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1040",
+    "ad_username":"janemo_87",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1041",
+    "ad_username":"susant_15",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1042",
+    "ad_username":"susanm_19",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1043",
+    "ad_username":"charle_34",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1044",
+    "ad_username":"robert_85",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1045",
+    "ad_username":"robert_95",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1046",
+    "ad_username":"robert_81",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1047",
+    "ad_username":"davidj_37",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1048",
+    "ad_username":"jamesw_71",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1049",
+    "ad_username":"susanw_36",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1050",
+    "ad_username":"jessic_52",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1051",
+    "ad_username":"johnlo_48",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1052",
+    "ad_username":"charle_11",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1053",
+    "ad_username":"joseph_37",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1054",
+    "ad_username":"maryga_34",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1055",
+    "ad_username":"charle_ad",
+    "account_status":"Disabled",
+    "last_login_days":85,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1056",
+    "ad_username":"michae_71",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1057",
+    "ad_username":"lindag_41",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1058",
+    "ad_username":"barbar_99",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1059",
+    "ad_username":"michae_87",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1060",
+    "ad_username":"michae_36",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1061",
+    "ad_username":"jamess_60",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1062",
+    "ad_username":"thomas_40",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1063",
+    "ad_username":"lindal_80",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1064",
+    "ad_username":"emilyj_51",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1065",
+    "ad_username":"jamesw_46",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1066",
+    "ad_username":"willia_58",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1067",
+    "ad_username":"test-sa-577",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1068",
+    "ad_username":"barbar_78",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1069",
+    "ad_username":"joseph_93",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1070",
+    "ad_username":"saraht_55",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1071",
+    "ad_username":"thomas_49",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1072",
+    "ad_username":"robert_43",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1073",
+    "ad_username":"susanj_56",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1074",
+    "ad_username":"johnth_75",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1075",
+    "ad_username":"jamesl_73",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1076",
+    "ad_username":"christ_69",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1077",
+    "ad_username":"michae_22",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1078",
+    "ad_username":"robert_70",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1079",
+    "ad_username":"johnwi_50",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1080",
+    "ad_username":"robert_36",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1081",
+    "ad_username":"test-sa-479",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1082",
+    "ad_username":"richar_50",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1083",
+    "ad_username":"emilym_62",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1084",
+    "ad_username":"sarahm_15",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1085",
+    "ad_username":"jessic_82",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1086",
+    "ad_username":"jamesm_38",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1087",
+    "ad_username":"johnmo_28",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1088",
+    "ad_username":"charle_12",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1089",
+    "ad_username":"thomas_43",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1090",
+    "ad_username":"thomas_80",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1091",
+    "ad_username":"lindat_84",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1092",
+    "ad_username":"michae_84",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1093",
+    "ad_username":"davidj_63",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1094",
+    "ad_username":"charle_ad",
+    "account_status":"Disabled",
+    "last_login_days":69,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1095",
+    "ad_username":"margar_29",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1096",
+    "ad_username":"jessic_35",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1097",
+    "ad_username":"christ_52",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1098",
+    "ad_username":"lindaw_39",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1099",
+    "ad_username":"michae_58",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1100",
+    "ad_username":"christ_82",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1101",
+    "ad_username":"test-sa-953",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1102",
+    "ad_username":"jessic_41",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1103",
+    "ad_username":"davidr_73",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1104",
+    "ad_username":"sarahm_80",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1105",
+    "ad_username":"susanb_93",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1106",
+    "ad_username":"maryro_ad",
+    "account_status":"Disabled",
+    "last_login_days":66,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1107",
+    "ad_username":"test-sa-445",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1108",
+    "ad_username":"lindas_42",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1109",
+    "ad_username":"jessic_72",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1110",
+    "ad_username":"test-sa-840",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1111",
+    "ad_username":"test-sa-757",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1112",
+    "ad_username":"michae_72",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1113",
+    "ad_username":"emilyg_68",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1114",
+    "ad_username":"willia_31",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1115",
+    "ad_username":"michae_55",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1116",
+    "ad_username":"maryta_31",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1117",
+    "ad_username":"charle_27",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1118",
+    "ad_username":"richar_79",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1119",
+    "ad_username":"janemi_72",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1120",
+    "ad_username":"susant_33",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1121",
+    "ad_username":"robert_79",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1122",
+    "ad_username":"joseph_92",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1123",
+    "ad_username":"test-sa-160",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1124",
+    "ad_username":"lindaw_77",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1125",
+    "ad_username":"susanm_14",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1126",
+    "ad_username":"margar_19",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1127",
+    "ad_username":"test-sa-937",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1128",
+    "ad_username":"johnma_95",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1129",
+    "ad_username":"davida_ad",
+    "account_status":"Disabled",
+    "last_login_days":70,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1130",
+    "ad_username":"charle_10",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1131",
+    "ad_username":"robert_62",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1132",
+    "ad_username":"barbar_27",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1133",
+    "ad_username":"davidt_90",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1134",
+    "ad_username":"barbar_39",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1135",
+    "ad_username":"susans_18",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1136",
+    "ad_username":"davidw_ad",
+    "account_status":"Disabled",
+    "last_login_days":74,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1137",
+    "ad_username":"marywi_11",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1138",
+    "ad_username":"barbar_37",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1139",
+    "ad_username":"michae_74",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1140",
+    "ad_username":"michae_68",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1141",
+    "ad_username":"test-sa-482",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1142",
+    "ad_username":"richar_17",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1143",
+    "ad_username":"joseph_89",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1144",
+    "ad_username":"michae_ad",
+    "account_status":"Disabled",
+    "last_login_days":70,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1145",
+    "ad_username":"davidd_95",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1146",
+    "ad_username":"lindas_88",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1147",
+    "ad_username":"charle_71",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1148",
+    "ad_username":"willia_94",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1149",
+    "ad_username":"willia_72",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1150",
+    "ad_username":"maryja_12",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1151",
+    "ad_username":"willia_10",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1152",
+    "ad_username":"johnja_78",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1153",
+    "ad_username":"thomas_80",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1154",
+    "ad_username":"jamesm_62",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1155",
+    "ad_username":"emilyj_11",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1156",
+    "ad_username":"richar_12",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1157",
+    "ad_username":"joseph_77",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1158",
+    "ad_username":"richar_45",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1159",
+    "ad_username":"thomas_78",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1160",
+    "ad_username":"michae_46",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1161",
+    "ad_username":"charle_ad",
+    "account_status":"Disabled",
+    "last_login_days":54,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1162",
+    "ad_username":"emilya_74",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1163",
+    "ad_username":"marylo_99",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1164",
+    "ad_username":"christ_96",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1165",
+    "ad_username":"michae_65",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1166",
+    "ad_username":"davidj_32",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1167",
+    "ad_username":"emilyd_23",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1168",
+    "ad_username":"richar_22",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1169",
+    "ad_username":"emilyt_77",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1170",
+    "ad_username":"richar_29",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1171",
+    "ad_username":"richar_40",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1172",
+    "ad_username":"richar_34",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1173",
+    "ad_username":"susanw_89",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1174",
+    "ad_username":"christ_77",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1175",
+    "ad_username":"jessic_42",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1176",
+    "ad_username":"robert_55",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1177",
+    "ad_username":"lindaj_44",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1178",
+    "ad_username":"johnjo_60",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1179",
+    "ad_username":"barbar_20",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1180",
+    "ad_username":"joseph_57",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1181",
+    "ad_username":"richar_61",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1182",
+    "ad_username":"robert_68",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1183",
+    "ad_username":"johnjo_82",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1184",
+    "ad_username":"emilyt_41",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1185",
+    "ad_username":"barbar_99",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1186",
+    "ad_username":"christ_38",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1187",
+    "ad_username":"christ_48",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1188",
+    "ad_username":"joseph_97",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1189",
+    "ad_username":"charle_20",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1190",
+    "ad_username":"barbar_93",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1191",
+    "ad_username":"barbar_93",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1192",
+    "ad_username":"davidt_14",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1193",
+    "ad_username":"joseph_21",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1194",
+    "ad_username":"davidm_61",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1195",
+    "ad_username":"joseph_58",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1196",
+    "ad_username":"janema_58",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1197",
+    "ad_username":"jessic_80",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1198",
+    "ad_username":"robert_70",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1199",
+    "ad_username":"lindaj_17",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1200",
+    "ad_username":"christ_91",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1201",
+    "ad_username":"test-sa-109",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1202",
+    "ad_username":"willia_99",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1203",
+    "ad_username":"davidj_31",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1204",
+    "ad_username":"johnwi_ad",
+    "account_status":"Disabled",
+    "last_login_days":44,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1205",
+    "ad_username":"test-sa-611",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1206",
+    "ad_username":"barbar_65",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1207",
+    "ad_username":"sarahm_92",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1208",
+    "ad_username":"joseph_52",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1209",
+    "ad_username":"jamest_82",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1210",
+    "ad_username":"willia_22",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1211",
+    "ad_username":"janeda_77",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1212",
+    "ad_username":"jamesm_15",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1213",
+    "ad_username":"willia_39",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1214",
+    "ad_username":"joseph_37",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1215",
+    "ad_username":"robert_98",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1216",
+    "ad_username":"michae_82",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1217",
+    "ad_username":"johnan_70",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1218",
+    "ad_username":"jessic_44",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1219",
+    "ad_username":"emilyg_15",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1220",
+    "ad_username":"christ_19",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1221",
+    "ad_username":"joseph_97",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1222",
+    "ad_username":"margar_45",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1223",
+    "ad_username":"robert_79",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1224",
+    "ad_username":"emilyt_82",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1225",
+    "ad_username":"richar_94",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1226",
+    "ad_username":"jamesg_14",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1227",
+    "ad_username":"michae_32",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1228",
+    "ad_username":"jessic_50",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1229",
+    "ad_username":"christ_ad",
+    "account_status":"Disabled",
+    "last_login_days":50,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1230",
+    "ad_username":"michae_36",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1231",
+    "ad_username":"lindaj_85",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1232",
+    "ad_username":"willia_28",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1233",
+    "ad_username":"willia_60",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1234",
+    "ad_username":"margar_19",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1235",
+    "ad_username":"janean_ad",
+    "account_status":"Disabled",
+    "last_login_days":37,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1237",
+    "ad_username":"barbar_82",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1238",
+    "ad_username":"robert_40",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1239",
+    "ad_username":"sarahl_82",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1240",
+    "ad_username":"barbar_59",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1241",
+    "ad_username":"emilym_96",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1242",
+    "ad_username":"christ_79",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1243",
+    "ad_username":"davidl_52",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1244",
+    "ad_username":"maryjo_59",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1245",
+    "ad_username":"willia_27",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1246",
+    "ad_username":"davidt_98",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1247",
+    "ad_username":"johnlo_20",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1248",
+    "ad_username":"barbar_74",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1249",
+    "ad_username":"michae_54",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1250",
+    "ad_username":"charle_16",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1251",
+    "ad_username":"christ_22",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1252",
+    "ad_username":"sarahm_65",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1253",
+    "ad_username":"janewi_39",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1254",
+    "ad_username":"susanm_19",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1255",
+    "ad_username":"robert_53",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1256",
+    "ad_username":"jamesl_87",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1257",
+    "ad_username":"willia_88",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1258",
+    "ad_username":"jamesm_86",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1259",
+    "ad_username":"thomas_60",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1260",
+    "ad_username":"michae_51",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1261",
+    "ad_username":"joseph_13",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1262",
+    "ad_username":"joseph_91",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1263",
+    "ad_username":"marywi_44",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1264",
+    "ad_username":"emilyh_67",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1265",
+    "ad_username":"willia_72",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1266",
+    "ad_username":"christ_39",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1268",
+    "ad_username":"willia_80",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1269",
+    "ad_username":"joseph_58",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1270",
+    "ad_username":"thomas_65",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1271",
+    "ad_username":"robert_33",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1272",
+    "ad_username":"richar_97",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1273",
+    "ad_username":"michae_84",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1274",
+    "ad_username":"margar_94",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1275",
+    "ad_username":"thomas_58",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1277",
+    "ad_username":"emilyj_89",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1278",
+    "ad_username":"richar_47",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1279",
+    "ad_username":"susant_41",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1280",
+    "ad_username":"susanj_19",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1281",
+    "ad_username":"jamesj_20",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1282",
+    "ad_username":"charle_44",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1283",
+    "ad_username":"richar_29",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1284",
+    "ad_username":"emilyl_58",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1285",
+    "ad_username":"barbar_91",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1286",
+    "ad_username":"margar_29",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1287",
+    "ad_username":"joseph_59",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1288",
+    "ad_username":"barbar_50",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1289",
+    "ad_username":"susanm_56",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1291",
+    "ad_username":"lindaj_21",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1292",
+    "ad_username":"sarahs_10",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1293",
+    "ad_username":"michae_49",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1294",
+    "ad_username":"maryja_66",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1295",
+    "ad_username":"richar_56",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1296",
+    "ad_username":"margar_44",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1297",
+    "ad_username":"emilys_23",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1298",
+    "ad_username":"marymo_26",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1299",
+    "ad_username":"susanm_21",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1300",
+    "ad_username":"emilyj_33",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1301",
+    "ad_username":"susanw_65",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1302",
+    "ad_username":"test-sa-559",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1303",
+    "ad_username":"sarahg_81",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1304",
+    "ad_username":"emilym_81",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1305",
+    "ad_username":"thomas_75",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1306",
+    "ad_username":"susanm_62",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1307",
+    "ad_username":"maryth_23",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1308",
+    "ad_username":"jessic_13",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1309",
+    "ad_username":"susant_21",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1310",
+    "ad_username":"jessic_55",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1311",
+    "ad_username":"janebr_80",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1314",
+    "ad_username":"christ_86",
+    "account_status":"Enabled",
+    "last_login_days":9,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1315",
+    "ad_username":"davidg_51",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1316",
+    "ad_username":"jessic_59",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1317",
+    "ad_username":"jessic_11",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales"
+  },
+  {
+    "employee_id":"EMP_1318",
+    "ad_username":"christ_47",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1320",
+    "ad_username":"janega_59",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1321",
+    "ad_username":"jamesh_20",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1322",
+    "ad_username":"barbar_81",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1323",
+    "ad_username":"charle_41",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1324",
+    "ad_username":"lindaa_83",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1325",
+    "ad_username":"willia_76",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1326",
+    "ad_username":"sarahh_31",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1328",
+    "ad_username":"thomas_58",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1329",
+    "ad_username":"robert_31",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1330",
+    "ad_username":"willia_27",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1331",
+    "ad_username":"charle_44",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1332",
+    "ad_username":"lindal_48",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1333",
+    "ad_username":"maryjo_44",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1334",
+    "ad_username":"charle_73",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Engineering"
+  },
+  {
+    "employee_id":"EMP_1335",
+    "ad_username":"charle_28",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1336",
+    "ad_username":"davidb_18",
+    "account_status":"Enabled",
+    "last_login_days":2,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance;DevTeam"
+  },
+  {
+    "employee_id":"EMP_1337",
+    "ad_username":"richar_31",
+    "account_status":"Enabled",
+    "last_login_days":1,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1338",
+    "ad_username":"test-sa-545",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1339",
+    "ad_username":"susanj_45",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-DevOps;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1340",
+    "ad_username":"christ_63",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1341",
+    "ad_username":"willia_48",
+    "account_status":"Enabled",
+    "last_login_days":5,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1342",
+    "ad_username":"thomas_71",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-HR"
+  },
+  {
+    "employee_id":"EMP_1343",
+    "ad_username":"barbar_19",
+    "account_status":"Enabled",
+    "last_login_days":8,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1344",
+    "ad_username":"johnma_56",
+    "account_status":"Enabled",
+    "last_login_days":4,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Finance"
+  },
+  {
+    "employee_id":"EMP_1345",
+    "ad_username":"jessic_42",
+    "account_status":"Enabled",
+    "last_login_days":6,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security"
+  },
+  {
+    "employee_id":"EMP_1346",
+    "ad_username":"saraht_41",
+    "account_status":"Enabled",
+    "last_login_days":7,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Sales;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1347",
+    "ad_username":"maryjo_90",
+    "account_status":"Enabled",
+    "last_login_days":0,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-IT;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1348",
+    "ad_username":"jessic_73",
+    "account_status":"Enabled",
+    "last_login_days":10,
+    "mfa_enabled":true,
+    "groups":"Domain Users;Dept-Security;Domain Admins"
+  },
+  {
+    "employee_id":"EMP_1349",
+    "ad_username":"joseph_86",
+    "account_status":"Enabled",
+    "last_login_days":3,
+    "mfa_enabled":false,
+    "groups":"Domain Users;Dept-Finance"
+  }
+]

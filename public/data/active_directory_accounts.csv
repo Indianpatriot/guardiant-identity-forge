@@ -1,0 +1,343 @@
+employee_id,ad_username,account_status,last_login_days,mfa_enabled,groups
+EMP_1000,johnan_77,Enabled,9,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1001,charle_50,Enabled,2,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1002,michae_99,Enabled,5,True,Domain Users;Dept-HR
+EMP_1003,charle_63,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1004,charle_62,Enabled,10,True,Domain Users;Dept-Sales
+EMP_1005,emilyb_29,Enabled,4,True,Domain Users;Dept-Sales
+EMP_1006,willia_ad,Disabled,42,True,Domain Users;Dept-Security
+EMP_1007,lindat_58,Enabled,6,True,Domain Users;Dept-Finance
+EMP_1008,joseph_33,Enabled,10,True,Domain Users;Dept-Engineering
+EMP_1009,davidr_78,Enabled,3,True,Domain Users;Dept-Security
+EMP_1010,joseph_70,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1011,davidm_40,Enabled,9,True,Domain Users;Dept-Engineering;Domain Admins
+EMP_1012,davidw_38,Enabled,2,True,Domain Users;Dept-Security;DevTeam
+EMP_1013,janelo_48,Enabled,0,True,Domain Users;Dept-Security;DevTeam
+EMP_1014,richar_28,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1015,davidd_69,Enabled,1,True,Domain Users;Dept-IT;Domain Admins
+EMP_1016,johnga_17,Enabled,6,True,Domain Users;Dept-Sales
+EMP_1017,robert_81,Enabled,10,True,Domain Users;Dept-Security
+EMP_1018,janeth_62,Enabled,10,True,Domain Users;Dept-Security
+EMP_1019,willia_63,Enabled,6,False,Domain Users;Dept-Security
+EMP_1020,barbar_81,Enabled,7,True,Domain Users;Dept-IT;Domain Admins
+EMP_1021,margar_77,Enabled,8,True,Domain Users;Dept-Sales
+EMP_1022,emilyr_27,Enabled,6,True,Domain Users;Dept-Security
+EMP_1023,christ_59,Enabled,5,True,Domain Users;Dept-HR
+EMP_1024,christ_41,Enabled,8,True,Domain Users;Dept-Engineering
+EMP_1025,lindaj_42,Enabled,1,True,Domain Users;Dept-Sales
+EMP_1026,charle_ad,Disabled,72,True,Domain Users;Dept-HR
+EMP_1027,christ_52,Enabled,10,True,Domain Users;Dept-Sales
+EMP_1028,margar_92,Enabled,10,True,Domain Users;Dept-Sales
+EMP_1029,willia_20,Enabled,5,True,Domain Users;Dept-Security
+EMP_1030,maryga_67,Enabled,1,False,Domain Users;Dept-DevOps;Domain Admins
+EMP_1031,charle_57,Enabled,3,True,Domain Users;Dept-HR
+EMP_1032,jessic_21,Enabled,8,True,Domain Users;Dept-Sales
+EMP_1033,susanm_78,Enabled,3,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1034,michae_34,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1035,robert_16,Enabled,8,True,Domain Users;Dept-Security
+EMP_1036,janeda_44,Enabled,7,True,Domain Users;Dept-Finance
+EMP_1037,joseph_58,Enabled,1,True,Domain Users;Dept-Security;Domain Admins
+EMP_1038,robert_96,Enabled,2,True,Domain Users;Dept-Sales
+EMP_1039,emilyw_87,Enabled,7,True,Domain Users;Dept-Security
+EMP_1040,janemo_87,Enabled,7,True,Domain Users;Dept-Security
+EMP_1041,susant_15,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1042,susanm_19,Enabled,5,False,Domain Users;Dept-IT;Domain Admins
+EMP_1043,charle_34,Enabled,1,False,Domain Users;Dept-Security;Domain Admins
+EMP_1044,robert_85,Enabled,10,True,Domain Users;Dept-IT;Domain Admins
+EMP_1045,robert_95,Enabled,2,True,Domain Users;Dept-Finance
+EMP_1046,robert_81,Enabled,3,True,Domain Users;Dept-HR;DevTeam
+EMP_1047,davidj_37,Enabled,2,True,Domain Users;Dept-Security
+EMP_1048,jamesw_71,Enabled,7,True,Domain Users;Dept-Finance
+EMP_1049,susanw_36,Enabled,10,True,Domain Users;Dept-Engineering
+EMP_1050,jessic_52,Enabled,10,True,Domain Users;Dept-IT;Domain Admins
+EMP_1051,johnlo_48,Enabled,9,True,Domain Users;Dept-HR
+EMP_1052,charle_11,Enabled,9,True,Domain Users;Dept-Security
+EMP_1053,joseph_37,Enabled,3,True,Domain Users;Dept-Engineering
+EMP_1054,maryga_34,Enabled,1,True,Domain Users;Dept-IT;Domain Admins
+EMP_1055,charle_ad,Disabled,85,True,Domain Users;Dept-Finance
+EMP_1056,michae_71,Enabled,5,True,Domain Users;Dept-Security
+EMP_1057,lindag_41,Enabled,4,True,Domain Users;Dept-HR
+EMP_1058,barbar_99,Enabled,8,True,Domain Users;Dept-HR
+EMP_1059,michae_87,Enabled,9,True,Domain Users;Dept-Engineering
+EMP_1060,michae_36,Enabled,9,True,Domain Users;Dept-IT;Domain Admins
+EMP_1061,jamess_60,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1062,thomas_40,Enabled,10,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1063,lindal_80,Enabled,9,True,Domain Users;Dept-Security
+EMP_1064,emilyj_51,Enabled,2,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1065,jamesw_46,Enabled,4,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1066,willia_58,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1067,test-sa-577,Enabled,9,True,Domain Users;Dept-Sales
+EMP_1068,barbar_78,Enabled,6,True,Domain Users;Dept-IT;Domain Admins
+EMP_1069,joseph_93,Enabled,8,True,Domain Users;Dept-Sales
+EMP_1070,saraht_55,Enabled,2,True,Domain Users;Dept-Sales
+EMP_1071,thomas_49,Enabled,4,True,Domain Users;Dept-Finance
+EMP_1072,robert_43,Enabled,7,True,Domain Users;Dept-HR
+EMP_1073,susanj_56,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins;DevTeam
+EMP_1074,johnth_75,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1075,jamesl_73,Enabled,8,True,Domain Users;Dept-IT;Domain Admins
+EMP_1076,christ_69,Enabled,6,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1077,michae_22,Enabled,7,True,Domain Users;Dept-Sales
+EMP_1078,robert_70,Enabled,9,False,Domain Users;Dept-Sales
+EMP_1079,johnwi_50,Enabled,3,True,Domain Users;Dept-HR
+EMP_1080,robert_36,Enabled,3,True,Domain Users;Dept-Sales
+EMP_1081,test-sa-479,Enabled,7,True,Domain Users;Dept-HR
+EMP_1082,richar_50,Enabled,7,True,Domain Users;Dept-HR
+EMP_1083,emilym_62,Enabled,9,True,Domain Users;Dept-HR
+EMP_1084,sarahm_15,Enabled,8,True,Domain Users;Dept-Security
+EMP_1085,jessic_82,Enabled,8,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1086,jamesm_38,Enabled,7,True,Domain Users;Dept-Security
+EMP_1087,johnmo_28,Enabled,1,True,Domain Users;Dept-Security
+EMP_1088,charle_12,Enabled,3,True,Domain Users;Dept-Sales
+EMP_1089,thomas_43,Enabled,7,True,Domain Users;Dept-IT;Domain Admins
+EMP_1090,thomas_80,Enabled,1,True,Domain Users;Dept-Finance
+EMP_1091,lindat_84,Enabled,3,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1092,michae_84,Enabled,9,True,Domain Users;Dept-Sales
+EMP_1093,davidj_63,Enabled,9,True,Domain Users;Dept-HR;DevTeam
+EMP_1094,charle_ad,Disabled,69,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1095,margar_29,Enabled,3,True,Domain Users;Dept-Finance
+EMP_1096,jessic_35,Enabled,5,True,Domain Users;Dept-HR;DevTeam
+EMP_1097,christ_52,Enabled,8,True,Domain Users;Dept-IT;Domain Admins
+EMP_1098,lindaw_39,Enabled,4,True,Domain Users;Dept-Security
+EMP_1099,michae_58,Enabled,8,True,Domain Users;Dept-Engineering
+EMP_1100,christ_82,Enabled,1,True,Domain Users;Dept-HR
+EMP_1101,test-sa-953,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1102,jessic_41,Enabled,10,True,Domain Users;Dept-Finance
+EMP_1103,davidr_73,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1104,sarahm_80,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1105,susanb_93,Enabled,10,True,Domain Users;Dept-Finance;Domain Admins
+EMP_1106,maryro_ad,Disabled,66,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1107,test-sa-445,Enabled,6,True,Domain Users;Dept-Finance
+EMP_1108,lindas_42,Enabled,1,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1109,jessic_72,Enabled,4,True,Domain Users;Dept-Engineering
+EMP_1110,test-sa-840,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1111,test-sa-757,Enabled,5,True,Domain Users;Dept-Finance
+EMP_1112,michae_72,Enabled,1,True,Domain Users;Dept-HR;Domain Admins
+EMP_1113,emilyg_68,Enabled,10,True,Domain Users;Dept-HR
+EMP_1114,willia_31,Enabled,1,True,Domain Users;Dept-IT;Domain Admins
+EMP_1115,michae_55,Enabled,3,True,Domain Users;Dept-HR
+EMP_1116,maryta_31,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1117,charle_27,Enabled,4,True,Domain Users;Dept-Finance
+EMP_1118,richar_79,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1119,janemi_72,Enabled,5,True,Domain Users;Dept-HR
+EMP_1120,susant_33,Enabled,0,False,Domain Users;Dept-Engineering
+EMP_1121,robert_79,Enabled,7,False,Domain Users;Dept-HR
+EMP_1122,joseph_92,Enabled,2,True,Domain Users;Dept-Security
+EMP_1123,test-sa-160,Enabled,6,True,Domain Users;Dept-Sales
+EMP_1124,lindaw_77,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1125,susanm_14,Enabled,2,True,Domain Users;Dept-Security
+EMP_1126,margar_19,Enabled,4,False,Domain Users;Dept-IT;Domain Admins
+EMP_1127,test-sa-937,Enabled,4,False,Domain Users;Dept-IT;Domain Admins
+EMP_1128,johnma_95,Enabled,10,True,Domain Users;Dept-Sales
+EMP_1129,davida_ad,Disabled,70,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1130,charle_10,Enabled,6,True,Domain Users;Dept-Finance
+EMP_1131,robert_62,Enabled,1,False,Domain Users;Dept-Finance
+EMP_1132,barbar_27,Enabled,1,True,Domain Users;Dept-Sales;DevTeam
+EMP_1133,davidt_90,Enabled,8,True,Domain Users;Dept-Engineering
+EMP_1134,barbar_39,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1135,susans_18,Enabled,1,True,Domain Users;Dept-Sales
+EMP_1136,davidw_ad,Disabled,74,True,Domain Users;Dept-Finance
+EMP_1137,marywi_11,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1138,barbar_37,Enabled,1,True,Domain Users;Dept-IT;Domain Admins
+EMP_1139,michae_74,Enabled,4,True,Domain Users;Dept-Sales
+EMP_1140,michae_68,Enabled,2,True,Domain Users;Dept-Engineering
+EMP_1141,test-sa-482,Enabled,2,False,Domain Users;Dept-Engineering
+EMP_1142,richar_17,Enabled,0,True,Domain Users;Dept-Finance
+EMP_1143,joseph_89,Enabled,7,True,Domain Users;Dept-Sales
+EMP_1144,michae_ad,Disabled,70,True,Domain Users;Dept-IT;Domain Admins
+EMP_1145,davidd_95,Enabled,9,True,Domain Users;Dept-Finance
+EMP_1146,lindas_88,Enabled,3,False,Domain Users;Dept-IT;Domain Admins
+EMP_1147,charle_71,Enabled,2,True,Domain Users;Dept-Engineering
+EMP_1148,willia_94,Enabled,6,True,Domain Users;Dept-Sales
+EMP_1149,willia_72,Enabled,5,True,Domain Users;Dept-Finance
+EMP_1150,maryja_12,Enabled,4,True,Domain Users;Dept-HR
+EMP_1151,willia_10,Enabled,8,True,Domain Users;Dept-IT;Domain Admins
+EMP_1152,johnja_78,Enabled,9,True,Domain Users;Dept-IT;Domain Admins
+EMP_1153,thomas_80,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1154,jamesm_62,Enabled,4,True,Domain Users;Dept-HR
+EMP_1155,emilyj_11,Enabled,8,True,Domain Users;Dept-HR
+EMP_1156,richar_12,Enabled,4,True,Domain Users;Dept-Engineering
+EMP_1157,joseph_77,Enabled,3,True,Domain Users;Dept-Security
+EMP_1158,richar_45,Enabled,3,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1159,thomas_78,Enabled,1,True,Domain Users;Dept-Sales;Domain Admins
+EMP_1160,michae_46,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1161,charle_ad,Disabled,54,True,Domain Users;Dept-Engineering
+EMP_1162,emilya_74,Enabled,6,True,Domain Users;Dept-HR
+EMP_1163,marylo_99,Enabled,2,True,Domain Users;Dept-Engineering
+EMP_1164,christ_96,Enabled,1,False,Domain Users;Dept-HR
+EMP_1165,michae_65,Enabled,0,True,Domain Users;Dept-Sales
+EMP_1166,davidj_32,Enabled,0,True,Domain Users;Dept-Engineering
+EMP_1167,emilyd_23,Enabled,8,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1168,richar_22,Enabled,8,True,Domain Users;Dept-Finance
+EMP_1169,emilyt_77,Enabled,6,False,Domain Users;Dept-DevOps;Domain Admins
+EMP_1170,richar_29,Enabled,8,True,Domain Users;Dept-Finance
+EMP_1171,richar_40,Enabled,1,True,Domain Users;Dept-Sales
+EMP_1172,richar_34,Enabled,3,True,Domain Users;Dept-Finance
+EMP_1173,susanw_89,Enabled,8,True,Domain Users;Dept-Sales
+EMP_1174,christ_77,Enabled,10,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1175,jessic_42,Enabled,10,True,Domain Users;Dept-Engineering
+EMP_1176,robert_55,Enabled,6,True,Domain Users;Dept-IT;Domain Admins
+EMP_1177,lindaj_44,Enabled,3,False,Domain Users;Dept-Security
+EMP_1178,johnjo_60,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1179,barbar_20,Enabled,9,False,Domain Users;Dept-Security;Domain Admins
+EMP_1180,joseph_57,Enabled,10,True,Domain Users;Dept-Engineering
+EMP_1181,richar_61,Enabled,0,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1182,robert_68,Enabled,0,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1183,johnjo_82,Enabled,8,True,Domain Users;Dept-Finance
+EMP_1184,emilyt_41,Enabled,4,True,Domain Users;Dept-Sales
+EMP_1185,barbar_99,Enabled,4,True,Domain Users;Dept-Security
+EMP_1186,christ_38,Enabled,0,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1187,christ_48,Enabled,4,True,Domain Users;Dept-HR
+EMP_1188,joseph_97,Enabled,9,True,Domain Users;Dept-IT;Domain Admins
+EMP_1189,charle_20,Enabled,7,True,Domain Users;Dept-Finance
+EMP_1190,barbar_93,Enabled,7,True,Domain Users;Dept-Finance;DevTeam
+EMP_1191,barbar_93,Enabled,5,True,Domain Users;Dept-HR
+EMP_1192,davidt_14,Enabled,1,True,Domain Users;Dept-Engineering
+EMP_1193,joseph_21,Enabled,1,True,Domain Users;Dept-Sales
+EMP_1194,davidm_61,Enabled,0,False,Domain Users;Dept-Engineering
+EMP_1195,joseph_58,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1196,janema_58,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1197,jessic_80,Enabled,2,True,Domain Users;Dept-Security;DevTeam
+EMP_1198,robert_70,Enabled,0,True,Domain Users;Dept-HR;Domain Admins
+EMP_1199,lindaj_17,Enabled,10,True,Domain Users;Dept-Security
+EMP_1200,christ_91,Enabled,3,True,Domain Users;Dept-Sales
+EMP_1201,test-sa-109,Enabled,5,True,Domain Users;Dept-Engineering
+EMP_1202,willia_99,Enabled,9,True,Domain Users;Dept-HR
+EMP_1203,davidj_31,Enabled,10,True,Domain Users;Dept-Sales
+EMP_1204,johnwi_ad,Disabled,44,True,Domain Users;Dept-Sales
+EMP_1205,test-sa-611,Enabled,6,False,Domain Users;Dept-Security
+EMP_1206,barbar_65,Enabled,4,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1207,sarahm_92,Enabled,5,False,Domain Users;Dept-Engineering
+EMP_1208,joseph_52,Enabled,0,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1209,jamest_82,Enabled,9,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1210,willia_22,Enabled,9,True,Domain Users;Dept-Finance
+EMP_1211,janeda_77,Enabled,9,True,Domain Users;Dept-Finance
+EMP_1212,jamesm_15,Enabled,3,True,Domain Users;Dept-Security;Domain Admins
+EMP_1213,willia_39,Enabled,3,True,Domain Users;Dept-Engineering
+EMP_1214,joseph_37,Enabled,6,False,Domain Users;Dept-Security
+EMP_1215,robert_98,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins;DevTeam
+EMP_1216,michae_82,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1217,johnan_70,Enabled,10,True,Domain Users;Dept-Engineering
+EMP_1218,jessic_44,Enabled,4,True,Domain Users;Dept-Sales
+EMP_1219,emilyg_15,Enabled,3,True,Domain Users;Dept-Engineering;Domain Admins
+EMP_1220,christ_19,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1221,joseph_97,Enabled,0,True,Domain Users;Dept-Security
+EMP_1222,margar_45,Enabled,8,True,Domain Users;Dept-Finance;DevTeam
+EMP_1223,robert_79,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1224,emilyt_82,Enabled,1,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1225,richar_94,Enabled,2,True,Domain Users;Dept-Security;Domain Admins
+EMP_1226,jamesg_14,Enabled,1,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1227,michae_32,Enabled,6,True,Domain Users;Dept-IT;Domain Admins
+EMP_1228,jessic_50,Enabled,3,True,Domain Users;Dept-Finance
+EMP_1229,christ_ad,Disabled,50,True,Domain Users;Dept-IT;Domain Admins
+EMP_1230,michae_36,Enabled,5,True,Domain Users;Dept-Finance;Domain Admins
+EMP_1231,lindaj_85,Enabled,3,False,Domain Users;Dept-Engineering
+EMP_1232,willia_28,Enabled,2,True,Domain Users;Dept-Finance
+EMP_1233,willia_60,Enabled,1,True,Domain Users;Dept-Sales
+EMP_1234,margar_19,Enabled,7,True,Domain Users;Dept-Finance
+EMP_1235,janean_ad,Disabled,37,True,Domain Users;Dept-IT;Domain Admins
+EMP_1237,barbar_82,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1238,robert_40,Enabled,1,False,Domain Users;Dept-Finance
+EMP_1239,sarahl_82,Enabled,10,True,Domain Users;Dept-HR
+EMP_1240,barbar_59,Enabled,9,False,Domain Users;Dept-Engineering
+EMP_1241,emilym_96,Enabled,5,True,Domain Users;Dept-Sales
+EMP_1242,christ_79,Enabled,3,True,Domain Users;Dept-HR
+EMP_1243,davidl_52,Enabled,8,False,Domain Users;Dept-HR
+EMP_1244,maryjo_59,Enabled,4,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1245,willia_27,Enabled,0,True,Domain Users;Dept-Finance
+EMP_1246,davidt_98,Enabled,7,True,Domain Users;Dept-Engineering
+EMP_1247,johnlo_20,Enabled,3,False,Domain Users;Dept-HR
+EMP_1248,barbar_74,Enabled,2,True,Domain Users;Dept-Security
+EMP_1249,michae_54,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1250,charle_16,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1251,christ_22,Enabled,10,False,Domain Users;Dept-DevOps;Domain Admins
+EMP_1252,sarahm_65,Enabled,4,True,Domain Users;Dept-IT;Domain Admins
+EMP_1253,janewi_39,Enabled,0,True,Domain Users;Dept-HR
+EMP_1254,susanm_19,Enabled,10,True,Domain Users;Dept-HR
+EMP_1255,robert_53,Enabled,1,True,Domain Users;Dept-Security;Domain Admins
+EMP_1256,jamesl_87,Enabled,5,True,Domain Users;Dept-Sales
+EMP_1257,willia_88,Enabled,0,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1258,jamesm_86,Enabled,6,True,Domain Users;Dept-Security;Domain Admins
+EMP_1259,thomas_60,Enabled,7,False,Domain Users;Dept-DevOps;Domain Admins
+EMP_1260,michae_51,Enabled,6,True,Domain Users;Dept-HR
+EMP_1261,joseph_13,Enabled,2,True,Domain Users;Dept-Security
+EMP_1262,joseph_91,Enabled,2,False,Domain Users;Dept-Finance
+EMP_1263,marywi_44,Enabled,9,True,Domain Users;Dept-HR;Domain Admins
+EMP_1264,emilyh_67,Enabled,7,True,Domain Users;Dept-IT;Domain Admins
+EMP_1265,willia_72,Enabled,7,False,Domain Users;Dept-Sales
+EMP_1266,christ_39,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1268,willia_80,Enabled,10,True,Domain Users;Dept-HR
+EMP_1269,joseph_58,Enabled,3,True,Domain Users;Dept-Finance
+EMP_1270,thomas_65,Enabled,8,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1271,robert_33,Enabled,5,True,Domain Users;Dept-HR
+EMP_1272,richar_97,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1273,michae_84,Enabled,8,True,Domain Users;Dept-HR
+EMP_1274,margar_94,Enabled,2,False,Domain Users;Dept-DevOps;Domain Admins;DevTeam
+EMP_1275,thomas_58,Enabled,3,False,Domain Users;Dept-Sales
+EMP_1277,emilyj_89,Enabled,4,False,Domain Users;Dept-Sales
+EMP_1278,richar_47,Enabled,8,True,Domain Users;Dept-HR
+EMP_1279,susant_41,Enabled,3,True,Domain Users;Dept-Sales
+EMP_1280,susanj_19,Enabled,3,True,Domain Users;Dept-HR;DevTeam
+EMP_1281,jamesj_20,Enabled,8,True,Domain Users;Dept-HR
+EMP_1282,charle_44,Enabled,0,True,Domain Users;Dept-HR;Domain Admins
+EMP_1283,richar_29,Enabled,9,True,Domain Users;Dept-IT;Domain Admins
+EMP_1284,emilyl_58,Enabled,6,True,Domain Users;Dept-Finance;DevTeam
+EMP_1285,barbar_91,Enabled,2,True,Domain Users;Dept-Finance
+EMP_1286,margar_29,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1287,joseph_59,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1288,barbar_50,Enabled,5,True,Domain Users;Dept-Engineering
+EMP_1289,susanm_56,Enabled,2,True,Domain Users;Dept-Sales
+EMP_1291,lindaj_21,Enabled,7,True,Domain Users;Dept-Engineering;DevTeam
+EMP_1292,sarahs_10,Enabled,7,False,Domain Users;Dept-Security
+EMP_1293,michae_49,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1294,maryja_66,Enabled,8,True,Domain Users;Dept-Engineering
+EMP_1295,richar_56,Enabled,9,True,Domain Users;Dept-IT;Domain Admins
+EMP_1296,margar_44,Enabled,5,True,Domain Users;Dept-Finance
+EMP_1297,emilys_23,Enabled,5,False,Domain Users;Dept-Sales
+EMP_1298,marymo_26,Enabled,9,True,Domain Users;Dept-Engineering
+EMP_1299,susanm_21,Enabled,1,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1300,emilyj_33,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1301,susanw_65,Enabled,10,True,Domain Users;Dept-IT;Domain Admins
+EMP_1302,test-sa-559,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1303,sarahg_81,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1304,emilym_81,Enabled,10,True,Domain Users;Dept-IT;Domain Admins
+EMP_1305,thomas_75,Enabled,5,True,Domain Users;Dept-HR
+EMP_1306,susanm_62,Enabled,9,True,Domain Users;Dept-Security;Domain Admins
+EMP_1307,maryth_23,Enabled,10,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1308,jessic_13,Enabled,6,True,Domain Users;Dept-Security
+EMP_1309,susant_21,Enabled,4,True,Domain Users;Dept-HR;DevTeam
+EMP_1310,jessic_55,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1311,janebr_80,Enabled,6,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1314,christ_86,Enabled,9,False,Domain Users;Dept-Engineering
+EMP_1315,davidg_51,Enabled,5,True,Domain Users;Dept-Sales
+EMP_1316,jessic_59,Enabled,3,True,Domain Users;Dept-IT;Domain Admins
+EMP_1317,jessic_11,Enabled,7,True,Domain Users;Dept-Sales
+EMP_1318,christ_47,Enabled,1,True,Domain Users;Dept-Finance
+EMP_1320,janega_59,Enabled,2,True,Domain Users;Dept-Finance
+EMP_1321,jamesh_20,Enabled,10,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1322,barbar_81,Enabled,5,True,Domain Users;Dept-Finance
+EMP_1323,charle_41,Enabled,3,True,Domain Users;Dept-HR;Domain Admins
+EMP_1324,lindaa_83,Enabled,5,True,Domain Users;Dept-Security
+EMP_1325,willia_76,Enabled,0,False,Domain Users;Dept-IT;Domain Admins
+EMP_1326,sarahh_31,Enabled,6,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1328,thomas_58,Enabled,6,True,Domain Users;Dept-Engineering
+EMP_1329,robert_31,Enabled,5,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1330,willia_27,Enabled,7,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1331,charle_44,Enabled,10,True,Domain Users;Dept-IT;Domain Admins
+EMP_1332,lindal_48,Enabled,2,True,Domain Users;Dept-IT;Domain Admins
+EMP_1333,maryjo_44,Enabled,0,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1334,charle_73,Enabled,4,True,Domain Users;Dept-Engineering
+EMP_1335,charle_28,Enabled,5,True,Domain Users;Dept-IT;Domain Admins
+EMP_1336,davidb_18,Enabled,2,True,Domain Users;Dept-Finance;DevTeam
+EMP_1337,richar_31,Enabled,1,True,Domain Users;Dept-Security
+EMP_1338,test-sa-545,Enabled,7,True,Domain Users;Dept-Security
+EMP_1339,susanj_45,Enabled,10,True,Domain Users;Dept-DevOps;Domain Admins
+EMP_1340,christ_63,Enabled,6,True,Domain Users;Dept-Security
+EMP_1341,willia_48,Enabled,5,True,Domain Users;Dept-HR;Domain Admins
+EMP_1342,thomas_71,Enabled,6,True,Domain Users;Dept-HR
+EMP_1343,barbar_19,Enabled,8,True,Domain Users;Dept-Finance
+EMP_1344,johnma_56,Enabled,4,True,Domain Users;Dept-Finance
+EMP_1345,jessic_42,Enabled,6,True,Domain Users;Dept-Security
+EMP_1346,saraht_41,Enabled,7,True,Domain Users;Dept-Sales;Domain Admins
+EMP_1347,maryjo_90,Enabled,0,True,Domain Users;Dept-IT;Domain Admins
+EMP_1348,jessic_73,Enabled,10,True,Domain Users;Dept-Security;Domain Admins
+EMP_1349,joseph_86,Enabled,3,False,Domain Users;Dept-Finance

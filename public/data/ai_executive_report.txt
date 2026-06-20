@@ -1,0 +1,219 @@
+# CROWDSTRIKE FALCON ADVISORY: EXECUTIVE IDENTITY THREAT ANALYSIS
+**TO:** Chief Information Security Officer (CISO) & Executive Leadership Team  
+**FROM:** Principal Cloud Security Architect & CISO Advisor, CrowdStrike  
+**DATE:** October 24, 2023  
+**SUBJECT:** CRITICAL SECURITY INCIDENT: Cross-Platform Identity Sprawl & Terminated Admin "Zombie" Accounts  
+**STATUS:** **CRITICAL ACTION REQUIRED**
+
+---
+
+## 1. Executive Summary
+
+During a targeted compromise assessment of our hybrid cloud infrastructure, CrowdStrike Falcon Identity Threat Detection (ITDR) flagged **three critical security incidents** of the highest severity (Risk Score: **100/100**). 
+
+We have discovered a systemic, cross-platform offboarding failure resulting in "Zombie Administrators." Three employees who have been officially **Terminated** in our HR information system still possess **active, highly privileged sessions and administrative access keys** across Active Directory (AD), AWS IAM, and Okta. 
+
+These identities represent an open back door. Because their sessions remain active, threat actors do not need to crack passwords or bypass Multi-Factor Authentication (MFA); they can simply hijack these orphaned, authenticated session tokens to execute a catastrophic, multi-cloud environment takeover.
+
+---
+
+## 2. Identity-Specific Threat Analysis & Remediation Plans
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                             CRITICAL EXPOSURE MATRIX                             │
+├──────────────┬────────────┬─────────────┬────────────┬───────────────────────────┤
+│ Employee ID  │ Name       │ Department  │ Risk Score │ Exposure Vector           │
+├──────────────┼────────────┼─────────────┼────────────┼───────────────────────────┤
+│ EMP_1006     │ W. Martin  │ Security    │ 100/100    │ SecOps & Monitoring Bypass│
+│ EMP_1026     │ C. Miller  │ HR          │ 100/100    │ PII, Extortion & Phishing │
+│ EMP_1055     │ C. Smith   │ Finance     │ 100/100    │ Wire Fraud & SOX Compromise│
+└──────────────┴────────────┴─────────────┴────────────┴───────────────────────────┘
+```
+
+---
+
+### Identity 1: William Martin (Security) — EMP_1006
+
+#### 1. Exact Blast Radius Risk
+As a terminated Security Department administrator with active cross-platform privileges, this identity has the keys to our castle. A malicious actor exploiting these active sessions could:
+*   **Disable Security Monitoring:** Terminate CrowdStrike Falcon sensors across the fleet, delete AWS CloudTrail logs, and disable GuardDuty detectors.
+*   **Establish Persistence:** Create rogue IAM users, register backdoor SAML Identity Providers (IdPs) in Okta, and inject malicious Group Policy Objects (GPOs) in Active Directory.
+*   **Neutralize Incident Response:** Lock out legitimate security personnel, delete backups, and blind the Security Operations Center (SOC) before executing a ransomware payload.
+
+#### 2. Three-Step Urgent Remediation Plan
+
+##### Step 1: Invalidate and Deactivate Okta Identity
+Immediately terminate all active web and API sessions to stop active sessions.
+*   **Action:** Log into the Okta Admin Console, navigate to **Directory > People > William Martin**, and click **Clear User Sessions**.
+*   **API/CLI Execution:** 
+    ```bash
+    curl -X POST -H "Authorization: SSWS ${OKTA_API_TOKEN}" \
+    "https://${ORG}.okta.com/api/v1/users/EMP_1006/lifecycle/deactivate"
+    ```
+
+##### Step 2: Sever Active Directory Access & Strip Memberships
+Disable the AD account and strip all group memberships to prevent lateral movement to on-premises resources.
+*   **Action:** Run PowerShell as Domain Admin to disable, move to a quarantined Organizational Unit (OU), and strip group memberships:
+    ```powershell
+    Disable-ADAccount -Identity "EMP_1006"
+    Get-ADPrincipalGroupMembership -Identity "EMP_1006" | Where-Object { $_.Name -ne "Domain Users" } | Remove-ADPrincipalGroupMembership -Identity "EMP_1006" -Confirm:$false
+    Move-ADObject -Identity (Get-ADUser "EMP_1006").DistinguishedName -TargetPath "OU=Terminated_Quarantine,DC=corporate,DC=local"
+    ```
+
+##### Step 3: Revoke AWS IAM Federated Sessions and Access Keys
+Invalidate active STS (Security Token Service) assumed-role sessions and delete any persistent programmatic access keys.
+*   **Action:** Apply an explicit inline deny policy to the IAM role/user and revoke active sessions using the AWS CLI:
+    ```bash
+    # Delete active IAM access keys
+    aws iam delete-access-key --user-name william.martin@corporate.com --access-key-id <ACCESS_KEY_ID>
+    
+    # Put RevokeSplat policy to invalidate federated sessions older than the current time
+    aws iam put-role-policy --role-name AWS_Security_Admin_Role --policy-name RevokeSessions --policy-document '{
+      "Version": "2012-10-17",
+      "Statement": [{
+        "Effect": "Deny",
+        "Action": "*",
+        "Resource": "*",
+        "Condition": {"DateLessThan": {"aws:TokenIssueTime": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}}
+      }]
+    }'
+    ```
+
+---
+
+### Identity 2: Charles Miller (HR) — EMP_1026
+
+#### 1. Exact Blast Radius Risk
+An active administrative HR session gives attackers access to our most sensitive employee directory data:
+*   **PII & Extortion:** Exfiltrate social security numbers, home addresses, compensation structures, and performance reviews to conduct targeted corporate espionage or double-extortion ransomware campaigns.
+*   **Advanced Phishing:** Weaponize payroll/onboarding portals to launch spear-phishing campaigns against other executives.
+*   **Downstream Hijacking:** Modify bank routing numbers in the HR system to divert payroll, or trigger rogue onboarding requests to provision shadow employees.
+
+#### 2. Three-Step Urgent Remediation Plan
+
+##### Step 1: Kill Okta Sessions & Revoke OAuth Tokens
+Ensure the user is forcefully logged out of all HR applications (Workday, ADP, etc.) integrated via Okta.
+*   **Action:** In Okta, navigate to the user's profile, click **More Actions**, select **Clear User Sessions**, and then select **Deactivate**.
+*   **API/CLI Execution:**
+    ```bash
+    # Revoke all token grants linked to the user
+    curl -X DELETE -H "Authorization: SSWS ${OKTA_API_TOKEN}" \
+    "https://${ORG}.okta.com/api/v1/users/EMP_1026/clients"
+    ```
+
+##### Step 2: Disable Active Directory Account & Revoke Kerberos Tickets
+Disable the account in AD and force a Kerberos ticket renewal (TGT) invalidation.
+*   **Action:** Run PowerShell on a Domain Controller:
+    ```powershell
+    Disable-ADAccount -Identity "EMP_1026"
+    # Set login hours to zero to block any attempts to re-authenticate
+    Set-ADUser -Identity "EMP_1026" -Replace @{logonHours = New-Object byte[] 21}
+    ```
+*   *Note: To immediately invalidate current Kerberos tickets, force replication across all Domain Controllers:* `repadmin /syncall /Adep`.
+
+##### Step 3: Revoke AWS Console and IAM Roles Access
+Prevent access to AWS console sessions that may have been assumed via HR portal integration.
+*   **Action:** Locate the federated role used by HR and apply an immediate Deny policy to the specific user's principal:
+    ```json
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Deny",
+          "Action": "*",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "aws:userid": "AROAXXXXXXXXXXXXXXXXX:charles.miller@corporate.com"
+            }
+          }
+        }
+      ]
+    }
+    ```
+
+---
+
+### Identity 3: Charles Smith (Finance) — EMP_1055
+
+#### 1. Exact Blast Radius Risk
+An active Finance Admin session bypasses critical financial controls and represents a severe compliance and material threat:
+*   **Business Email Compromise (BEC) & Wire Fraud:** Intercept or alter invoices, modify wire transfer instructions, and approve unauthorized transactions within billing platforms.
+*   **Material Non-Public Information (MNPI) Leak:** Access SEC-sensitive earnings draft reports, tax filings, and bank accounts, exposing the company to regulatory penalties (SOX/SEC violations) and insider trading vulnerabilities.
+*   **SaaS/Cloud Billing Tampering:** Access AWS Billing console to spin up massive crypto-mining fleets or alter billing configurations to shut down production services due to "non-payment."
+
+#### 2. Three-Step Urgent Remediation Plan
+
+##### Step 1: Execute Okta Deactivation and Factor Reset
+Block the identity from accessing financial SaaS applications (NetSuite, Coupa, AWS Billing).
+*   **Action:** Clear all active Okta sessions, reset enrolled MFA factors to prevent self-service recovery, and deactivate the account.
+*   **API/CLI Execution:**
+    ```bash
+    # Reset MFA Factors
+    curl -X DELETE -H "Authorization: SSWS ${OKTA_API_TOKEN}" \
+    "https://${ORG}.okta.com/api/v1/users/EMP_1055/lifecycle/reset_factors"
+    
+    # Deactivate Identity
+    curl -X POST -H "Authorization: SSWS ${OKTA_API_TOKEN}" \
+    "https://${ORG}.okta.com/api/v1/users/EMP_1055/lifecycle/deactivate"
+    ```
+
+##### Step 2: Disable Active Directory Account and Strip SPNs
+Prevent on-premises financial database access and revoke Kerberos delegation.
+*   **Action:** Execute PowerShell to disable and check for Service Principal Names (SPNs) that could allow Kerberoasting:
+    ```powershell
+    Disable-ADAccount -Identity "EMP_1055"
+    # Search and remove any SPNs associated with this user
+    Get-ADUser -Identity "EMP_1055" -Properties ServicePrincipalNames | Where-Object {$_.ServicePrincipalNames} | ForEach-Object {
+        Set-ADUser -Identity $_ -Remove @{servicePrincipalName=$_.ServicePrincipalNames}
+    }
+    ```
+
+##### Step 3: Terminate AWS Sessions & Revoke API Keys
+Instantly invalidate active console sessions access to AWS Billing or Finance administration.
+*   **Action:** Delete any access keys and attach a revocation policy to deny access to billing and pricing endpoints:
+    ```bash
+    # Terminate active access keys
+    aws iam list-access-keys --user-name charles.smith@corporate.com | jq -r '.AccessKeyMetadata[].AccessKeyId' | xargs -I {} aws iam delete-access-key --user-name charles.smith@corporate.com --access-key-id {}
+    
+    # Revoke active STS assumed sessions instantly
+    aws iam put-user-policy --user-name charles.smith@corporate.com --policy-name ImmediateDenyAll --policy-document '{
+      "Version": "2012-10-17",
+      "Statement": [{
+        "Effect": "Deny",
+        "Action": "*",
+        "Resource": "*"
+      }]
+    }'
+    ```
+
+---
+
+## 3. Root Cause & Strategic Recommendations
+
+### Why Did This Happen?
+This incident is the result of a **siloed Joiner-Mover-Leaver (JML) workflow**. When HR terminated these employees, the HR Information System (HRIS) did not dynamically trigger session revocation and account disabling across the downstream identity providers (Active Directory, Okta, and AWS). 
+
+Legacy offboarding relies on human intervention or batch-processed scripts that fail to invalidate live, active web and API session tokens, creating a dangerous gap where terminated employees remain active in our digital environment.
+
+```
+       [ HRIS System (Workday/ADP) ] - User status set to "Terminated"
+                    │
+                    ▼ (Siloed Workflow / Manual Delay)
+     [ Active Directory ] ─── [ Okta IdP ] ─── [ Cloud Providers (AWS) ]
+            │                    │                     │
+            ▼                    ▼                     ▼
+     Account Enabled      Sessions Active       Access Keys Valid
+```
+
+### Strategic Remediation Actions
+
+To prevent this vulnerability from recurring, we must implement three core architecture changes:
+
+1.  **Deploy CrowdStrike Falcon Identity Threat Detection & Response (ITDR):** Integrate Falcon Identity with our Domain Controllers and Okta. This ensures any anomalous behavior from "dormant" or "terminated" accounts is automatically blocked in real time before it can spread laterally.
+2.  **Automate API-Driven Offboarding Orchestration:** Build an automated webhook bridge between our HR system (e.g., Workday) and our Identity Providers (Okta/Active Directory). A termination event in HR must trigger an automated, zero-delay script that:
+    *   Disables the AD account.
+    *   Deactivates the Okta account.
+    *   Calls APIs to invalidate all active web/OIDC sessions and AWS IAM credentials.
+3.  **Enforce Continuous Access Evaluation (CAEP):** Configure Okta and AWS to use Continuous Access Evaluation. This ensures that any change in user status (such as termination or security policy change) immediately revokes active session tokens across all downstream SaaS and Cloud environments in near-real-time, rather than waiting for tokens to naturally expire.
