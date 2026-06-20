@@ -183,6 +183,33 @@ export const incidents = [
   },
 ];
 
+// Procedurally extend incidents to 50 total to match enterprise scale.
+const _incTitles = [
+  "Suspicious cross-tenant token replay",
+  "Service account used outside maintenance window",
+  "Wildcard IAM policy attached to role",
+  "Privileged group membership change outside approval",
+  "Stale access key used after 180d dormancy",
+  "Unusual geo login: privileged account",
+  "Bulk download from sensitive S3 prefix",
+  "OAuth app granted org-wide scope",
+  "Console login without MFA challenge",
+  "Federation trust modified",
+];
+const _incSevs = ["Critical","High","High","Medium","Medium","Medium","High","Critical","High","Medium"] as const;
+for (let k = 0; k < 45; k++) {
+  const ident = identities[(k * 5 + 3) % identities.length];
+  incidents.push({
+    id: `INC-${2036 - k}`,
+    severity: _incSevs[k % _incSevs.length] as "Critical" | "High" | "Medium",
+    title: _incTitles[k % _incTitles.length],
+    user: ident.name,
+    time: `${1 + (k % 6)}d ago`,
+    detail: `Anomaly correlated against baseline for ${ident.department}. Confidence ${72 + (k % 25)}%. Affects ${1 + (k % 4)} platform${k % 4 ? "s" : ""}.`,
+    action: "Open playbook IG-Auto-Revoke and assign to SOC tier-2.",
+  });
+}
+
 export const alerts = [
   { time: "09:42", type: "Privilege", text: "User added to Admin group: Sarah Patel", severity: "high" },
   { time: "09:18", type: "Cloud", text: "AWS role granted: AdministratorAccess to ETL-Pipeline", severity: "critical" },
